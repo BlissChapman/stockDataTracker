@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A0073D02-1539-460F-941E-CC5CD2DD7AA2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>veryEarlyRetirement</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>369B82B9341E0AF81FEF42EC06F975BF686FBC1B</key>
+		<string>https://github.com/Togira/stockDataTracker.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>veryEarlyRetirement.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>369B82B9341E0AF81FEF42EC06F975BF686FBC1B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Togira/stockDataTracker.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>369B82B9341E0AF81FEF42EC06F975BF686FBC1B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>369B82B9341E0AF81FEF42EC06F975BF686FBC1B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>stockDataTracker</string>
+		</dict>
+	</array>
+</dict>
+</plist>
