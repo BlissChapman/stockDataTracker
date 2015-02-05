@@ -17,7 +17,7 @@ class ViewController: NSViewController {
     var data: NSData?
     var newString: String?
     
-    var day = NSDateFormatter()
+    //var day = NSDateFormatter()
     
     
     override func viewDidLoad() {
