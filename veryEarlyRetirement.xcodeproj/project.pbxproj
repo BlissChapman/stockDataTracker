@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E17719D1A83B42700FA68AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E17719C1A83B42700FA68AC /* Main.storyboard */; };
 		A5F9B9581A74173900551527 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F9B9571A74173900551527 /* AppDelegate.swift */; };
 		A5F9B95A1A74173900551527 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F9B9591A74173900551527 /* ViewController.swift */; };
 		A5F9B95C1A74173900551527 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F9B95B1A74173900551527 /* Images.xcassets */; };
-		A5F9B95F1A74173900551527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F9B95D1A74173900551527 /* Main.storyboard */; };
 		A5F9B96B1A74173900551527 /* veryEarlyRetirementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F9B96A1A74173900551527 /* veryEarlyRetirementTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,12 +25,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E17719C1A83B42700FA68AC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A5F9B9521A74173900551527 /* veryEarlyRetirement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = veryEarlyRetirement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F9B9561A74173900551527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5F9B9571A74173900551527 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5F9B9591A74173900551527 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A5F9B95B1A74173900551527 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A5F9B95E1A74173900551527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5F9B9641A74173900551527 /* veryEarlyRetirementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = veryEarlyRetirementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F9B9691A74173900551527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5F9B96A1A74173900551527 /* veryEarlyRetirementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veryEarlyRetirementTests.swift; sourceTree = "<group>"; };
@@ -75,10 +75,10 @@
 		A5F9B9541A74173900551527 /* veryEarlyRetirement */ = {
 			isa = PBXGroup;
 			children = (
+				0E17719C1A83B42700FA68AC /* Main.storyboard */,
 				A5F9B9571A74173900551527 /* AppDelegate.swift */,
 				A5F9B9591A74173900551527 /* ViewController.swift */,
 				A5F9B95B1A74173900551527 /* Images.xcassets */,
-				A5F9B95D1A74173900551527 /* Main.storyboard */,
 				A5F9B9551A74173900551527 /* Supporting Files */,
 			);
 			path = veryEarlyRetirement;
@@ -189,8 +189,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E17719D1A83B42700FA68AC /* Main.storyboard in Resources */,
 				A5F9B95C1A74173900551527 /* Images.xcassets in Resources */,
-				A5F9B95F1A74173900551527 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,17 +230,6 @@
 			targetProxy = A5F9B9651A74173900551527 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A5F9B95D1A74173900551527 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5F9B95E1A74173900551527 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A5F9B96C1A74173900551527 /* Debug */ = {
@@ -327,6 +316,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = veryEarlyRetirement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -338,6 +328,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = veryEarlyRetirement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

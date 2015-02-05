@@ -22,9 +22,8 @@ class ViewController: NSViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        println("RUNNING")
         if NSUserDefaults.standardUserDefaults().boolForKey("kAlreadyBeenLaunched") == false {
-            println("RUNNING")
             NSUserDefaults.standardUserDefaults().setObject(0, forKey: "counter")
             NSUserDefaults.standardUserDefaults().synchronize()
         }
